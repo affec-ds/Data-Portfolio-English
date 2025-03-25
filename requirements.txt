@@ -1,6 +1,0 @@
-flask
-pandas
-scikit-learn
-matplotlib
-seaborn
-gunicorn
