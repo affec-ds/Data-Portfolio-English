@@ -1,60 +1,24 @@
-# 🎧 Playlist Generator
+# Affectus Jaureguizar – Data Portfolio (English)
 
-Una aplicación web interactiva que recomienda canciones basadas en el estado emocional del usuario, utilizando clustering de datos musicales. Construida con Python, Flask, y datos reales de más de 20.000 canciones extraídas desde una fuente abierta.
+Hi! I'm Affectus, a data scientist from Chile. This is a curated selection of my personal and freelance projects, translated into English for international reviewers and hiring teams.
 
----
+## Projects
 
-## 🧠 Objetivo del Proyecto
+🎧 **Playlist Generator – Spotify-Based Song Recommender**  
+A Flask web application that connects to the Spotify API and generates personalized playlists based on user-selected filters such as energy, mood, and danceability. It includes over 8,800 songs and applies clustering and similarity models for music discovery.  
+*Tech stack: Python, Flask, Spotipy, Pandas, Streamlit*
 
-Desarrollar un sistema de recomendación de playlists personalizadas basado en las características acústicas de las canciones, con el fin de sugerir música alineada al estado emocional del usuario.
+📈 **Financial Forecast – Predicting Business Scenarios**  
+A predictive modeling project focused on forecasting financial performance for small and medium businesses. It includes time series analysis, risk identification, and visual storytelling to support strategic decisions.  
+*Tech stack: Python, scikit-learn, Matplotlib, Seaborn, Excel*
 
----
-
-## 🚀 Demo local
-
-Puedes ejecutar la app localmente y probarla accediendo a:
-
-[Playlist Generator](https://playlistgenerator-vwec.onrender.com/)
-
-
----
-
-## 🧪 Tecnologías utilizadas
-
-- Python 3
-- Jupyter Notebook
-- Flask
-- Pandas / Scikit-learn / Matplotlib / Seaborn
-- HTML + Bootstrap (visual simple)
+💿 **Vinyl Sales Dashboard – Presagio Records (Freelance)**  
+An interactive sales analysis dashboard created for a Chilean music label. It visualizes monthly revenue, top-selling products, and sales trends, helping decision-makers identify growth opportunities.  
+*Tech stack: Python, Pandas, Matplotlib, Google Sheets*
 
 ---
 
-## 🧬 Metodología
+## Full Portfolio
 
-1. **Dataset:** Más de 20.000 canciones con variables como valence, energy, danceability y tempo. Obtenido desde [Google Dataset Search](https://datasetsearch.research.google.com/), redirigido a Kaggle.
-
-2. **EDA:** Análisis exploratorio para entender la distribución emocional de las canciones.
-
-3. **Clustering:** Uso de K-Means para agrupar canciones según características acústicas en distintos "moods".
-
-4. **Recomendación:** El usuario elige una emoción y la app recomienda canciones del cluster más alineado a ella.
-
-5. **Migración a web:** El código fue trasladado a Flask y desplegado como una app web funcional.
-
----
-
-## 🎯 Características principales
-
-- Selección de emoción por parte del usuario
-- Recomendación de canciones alineadas al estado emocional
-- Botón para regenerar una nueva playlist con la misma emoción
-- Botón para cambiar de emoción
-- Flujo intuitivo y 100% funcional localmente
-
----
-
-## 🛠️ Instalación local
-
-1. **Clona este repositorio:**
-   ```bash
-   git clone git clone https://github.com/affec-ds/Playlist-Generator.git
+Would you like to see more projects or explore the original Spanish versions?  
+Visit my full GitHub profile: [github.com/affec-ds](https://github.com/affec-ds)
